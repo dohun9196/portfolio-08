@@ -1,0 +1,134 @@
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+
+    color: #fff;
+    text-shadow: 0 0 1px #888;
+    background: rgba(0, 0, 0, 0.4);
+
+    box-shadow: 0 3px 3px rgb(0 0 0 / 10%);
+    transition: all 0.2s;
+
+    z-index: 999;
+
+}
+
+#header img.colr {
+    display: none;
+}
+
+
+#header img.white {
+    display: inline-block;
+}
+
+#header .h_flex {
+    justify-content: space-between;
+}
+
+#header h1 {
+    line-height: 90px;
+}
+
+#header h1 a {
+    display: block;
+}
+
+#header .gnb {
+    line-height: 90px;
+}
+
+#header .gnb ul {
+    display: flex;
+    gap: 60px;
+}
+
+#header .gnb>ul>li>a {
+    display: block;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#header.top .gnb>ul>li:nth-child(2) .menu_wrap .h_drop {
+    transform: translate(100px, 0);
+}
+
+#header .gnb>ul>li a {
+    display: block;
+    text-align: center;
+}
+
+#header .gnb>ul>li .menu_wrap {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    line-height: 50px;
+    height: 0px;
+    color: #fff;
+    text-shadow: 0 0 1px #888;
+    background: rgba(0, 0, 0, 0.4);
+
+    border-bottom: 1px solid #3c3c3c;
+
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#header .gnb>ul>li:hover .menu_wrap {
+
+    height: 50px;
+    visibility: visible;
+    opacity: 1;
+}
+
+#header .gnb>ul>li .h_drop {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header .gnb>ul>li:nth-child(1) .h_drop {
+    justify-content: flex-start;
+    padding: 0 0 0 300px;
+}
+
+#header .gnb>ul>li:nth-child(2) .h_drop {
+    justify-content: flex-start;
+    padding: 0 0 0 400px;
+}
+
+#header .gnb>ul>li:nth-child(3) .h_drop {
+    justify-content: flex-start;
+    padding: 0 0 0 500px;
+}
+
+#header .gnb>ul>li:nth-child(4) .h_drop {
+    justify-content: flex-start;
+    padding: 0 0 0 650px;
+}
+
+#header .gnb>ul>li:nth-child(5) .h_drop {
+    justify-content: flex-start;
+    padding: 0 0 0 800px;
+}
+
+#header .gnb>ul>li:nth-child(6) .h_drop {
+    justify-content: flex-start;
+    padding: 0 0 0 950px;
+}
+
+#header .link {}
+
+#header .link a {
+    display: block;
+
+    font-size: 20px;
+    line-height: 90px;
+}
