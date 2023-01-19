@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 ._slogan {
     text-align: center;
     padding: 0 0 50px 0;
@@ -29,7 +33,7 @@
 }
 
 .mainVisual .main_slide figure {
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 
 .mainVisual .main_slide figure:nth-child(1) {
@@ -397,9 +401,4 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 1.2;
-}
-
-/* 서브페이지 */
-.assec {
-    height: 500vh;
 }

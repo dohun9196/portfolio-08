@@ -64,3 +64,50 @@ button {
     border: 1px solid #444;
     padding: 7px 20px 7px 20px;
 }
+
+.ab_bg {
+    position: relative;
+}
+
+.suball_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+
+    text-shadow: 0 0 1px #555;
+}
+
+.suball_title h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+.suball_title p {
+    font-size: 20px;
+
+}
+
+._main_text {
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+._main_text strong {
+    display: block;
+    font-size: 43px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+._main_text p {
+    font-size: 18px;
+}
+
+.ab02con,
+.ab03con {
+    padding: 50px 0;
+}
